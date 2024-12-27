@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { fetchData } from "../utlis/rapidapi";
+import { fetchData } from "../utils/rapidapi";
 import ReactPlayer from "react-player";
-// import { AiOutlineLike } from "react-icons/ai";
-// import { abbreviateNumber } from "js-abbreviation-number";
+import { AiOutlineLike } from "react-icons/ai";
+import { abbreviateNumber } from "js-abbreviation-number";
+import SuggestedVideo from "./SuggestedVideo";
 // import SuggestedVideo from "./SuggestedVideo";
-// import { BsFillCheckCircleFill } from "react-icons/bs";
+import { BsFillCheckCircleFill } from "react-icons/bs";
 
 function PlayingVideo() {
     const [video, setVideo] = useState();

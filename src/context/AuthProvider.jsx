@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { fetchData } from "../utlis/rapidapi";
+import { fetchData } from "../utils/rapidapi";
 
 export const AuthContext = createContext();
 
