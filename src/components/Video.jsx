@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import Time from "../loader/Time";
-// import Time from "./Loader/time";
 import Time from "../Loader/time";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { abbreviateNumber } from "js-abbreviation-number";
@@ -11,7 +10,7 @@ function Video({ video }) {
 
     return (
         <div className="">
-            <Link to={`/video/${video?.videoId}`}S>
+            <Link to={`/video/${video?.videoId}`} S>
                 <div className="flex flex-col">
                     {/* thumbnail & duration */}
                     <div className="relative h-48 md:h-56 md: rounded-xl hover:rounded-none duration-200 overflow-hidden">
