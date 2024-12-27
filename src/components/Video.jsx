@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import Time from "../loader/Time";
-import Time from "./Loader/Time";
+import Time from "./Loader/time";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { abbreviateNumber } from "js-abbreviation-number";
 
