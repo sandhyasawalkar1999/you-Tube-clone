@@ -8,6 +8,9 @@ import { Route, Routes } from "react-router-dom";
 import { useAuth } from "./context/AuthProvider";
 // import Loading from "./components/Loading";
 import Loading from "./Loader/Loading";
+import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
+import { ToastContainer } from "react-toastify";
 
 
 const App = () => {
@@ -22,7 +25,10 @@ const App = () => {
         <Route path="/" exact element={<Home />} />
         <Route path="/search/:searchQuery" element={<Search />} />
         <Route path="/video/:id" element={<Playingvideo />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
+      <ToastContainer autoClose={3000} />
     </div >
   );
 };

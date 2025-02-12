@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Avatar from "react-avatar";
-
+import { Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 import { IoMdMic } from "react-icons/io";
@@ -29,7 +29,9 @@ function Navbar() {
     <div className="flex justify-between fixed top-0 w-[100%] bg-white px-6 py-2 ">
       <div className="flex items-center space-x-4  ">
         <AiOutlineMenu className="text-xl cursor-pointer" />
-        <img src={logo} alt="" className="w-28 cursor-pointer" />
+        <a href="/" >
+          <img src={logo} alt="" className="w-28 cursor-pointer" />
+        </a>
       </div>
       <div className="flex w-[35%] items-center ">
         <div className="w-[100%] px-4 py-2 border-[1px] border-gray-400 rounded-l-full">
@@ -56,7 +58,9 @@ function Navbar() {
       <div className="flex  space-x-5 items-center ">
         <RiVideoAddLine className="text-2xl" />
         <AiOutlineBell className="text-2xl" />
-        <Avatar src={profile} size="32" round={true} />
+        <Link to="/signin">
+          <Avatar src={profile} size="32" round={true} />
+        </Link>
       </div>
     </div>
   );

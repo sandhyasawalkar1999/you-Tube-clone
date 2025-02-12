@@ -38,6 +38,8 @@ import { IoGameControllerOutline } from "react-icons/io5";
 
 const Sidebar = () => {
 
+
+
     const sidebarItems = [
         {
             id: 1,
@@ -197,6 +199,9 @@ const Sidebar = () => {
         },
     ]
 
+    const handleShorts = () => {
+        alert('Shorts clicked');
+    }
 
     return (
         <div className='px-6 w-[20%]  h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-hidden'>
