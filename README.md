@@ -9,7 +9,7 @@ A fully responsive **YouTube Clone** built using **React.js**, featuring video s
 - 🔍 **Search Videos** – Users can search for videos dynamically.
 - 🎥 **Video Playback** – Displays video details like title, views, likes, and description.
 - 🎭 **Related Videos** – Suggests similar videos based on the current selection.
-\- 🔄 **Debounced Search** – Optimizes API calls to avoid excessive requests.
+- 🔄 **Debounced Search** – Optimizes API calls to avoid excessive requests.
 - 📱 **Fully Responsive** – Works on desktop, tablet
 - 🏎️ **Fast Loading** – Uses lazy loading, Axios caching, and optimized API calls.
 
@@ -29,7 +29,13 @@ A fully responsive **YouTube Clone** built using **React.js**, featuring video s
 
 ## 📂 Project Structure
 
-/src ├── components # Reusable UI components (Navbar, VideoCard, Sidebar, etc.) ├── pages # Main pages (Home, VideoDetail, SearchResults) ├── context # Global state management using Context API ├── api # API functions for fetching data ├── assets # Images and icons ├── utils # Helper functions ├── App.js # Main application entry point ├── index.js # React DOM rendering
+/src ├── components # Reusable UI components (Navbar, VideoCard, Sidebar, etc.) 
+     ├── pages # Main pages (Home, VideoDetail, SearchResults) 
+     ├── context # Global state management using Context API
+     ├── api # API functions for fetching data ├── assets # Images and icons 
+     ├── utils # Helper functions 
+     ├── App.js # Main application entry point 
+     ├── index.js # React DOM rendering
 
 ## 🔗 API Used
 
