@@ -1,19 +1,16 @@
 # 🎬 YouTube Clone in React
 
-A fully responsive **YouTube Clone** built using **React.js**, featuring video search, trending videos, video details, and more. This project replicates core YouTube functionalities using the **YouTube Data API v3**.
+A fully responsive **YouTube Clone** built using **React.js**, featuring video search, trending videos, video details, and more. This project replicates core YouTube functionalities using the **Rapid Api**.
 
 ---
 
 ## 🚀 Features
 
 - 🔍 **Search Videos** – Users can search for videos dynamically.
-- 📺 **Trending Videos** – Fetches the latest trending content.
 - 🎥 **Video Playback** – Displays video details like title, views, likes, and description.
 - 🎭 **Related Videos** – Suggests similar videos based on the current selection.
-- 🌙 **Dark Mode Toggle** – Enhances the viewing experience.
-- 🔄 **Debounced Search** – Optimizes API calls to avoid excessive requests.
-- ⚡ **Optimized Performance** – Lazy loading, memoization, and dynamic imports.
-- 📱 **Fully Responsive** – Works on desktop, tablet, and mobile.
+\- 🔄 **Debounced Search** – Optimizes API calls to avoid excessive requests.
+- 📱 **Fully Responsive** – Works on desktop, tablet
 - 🏎️ **Fast Loading** – Uses lazy loading, Axios caching, and optimized API calls.
 
 ---
@@ -21,12 +18,12 @@ A fully responsive **YouTube Clone** built using **React.js**, featuring video s
 ## 🛠 Tech Stack
 
 - **Frontend:** React.js, React Router, Context API
-- **Styling:** Tailwind CSS / CSS Modules
+- **Styling:** Tailwind CSS 
 - **API Requests:** Axios
 - **Routing:** React Router
-- **Build Tool:** Vite / Webpack
-- **State Management:** Context API / Redux (if used)
-- **Deployment:** Vercel / Netlify
+- **Build Tool:** Vite 
+- **State Management:** Context API 
+- **Deployment:** Vercel
 
 ---
 
@@ -42,13 +39,6 @@ The project uses **YouTube Data API v3** (or a third-party alternative like Rapi
 - Retrieve **video details** (title, description, likes, views, etc.)
 - Get **related videos**
 
-### 🔑 Setup API Key
-
-1. **Get a YouTube Data API Key** from [Google Developer Console](https://console.cloud.google.com/).  
-2. Create a `.env` file in the root directory and add:
-
-3. Restart the React app to apply changes.
-
 ---
 
 ## 🛠 Installation & Setup
@@ -58,17 +48,6 @@ The project uses **YouTube Data API v3** (or a third-party alternative like Rapi
 git clone https://github.com/sandhyasawalkar1999/you-tube-clone.git
 cd youtube-clone
 
-2️⃣ Install Dependencies
-sh
-Copy
-Edit
-npm install
-3️⃣ Start the Development Server
-sh
-Copy
-Edit
-npm start
-The app runs at http://localhost:3000/.
 
 🔧 Future Enhancements
 🔐 User Authentication – Sign-in with Google OAuth.
